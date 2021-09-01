@@ -9,4 +9,4 @@ for counter, value in enumerate(unidades_federativas):
 
 sigla = input('Digite a sigla do estado')
 uf = UnidadeFederativa.get_UF(sigla)
-print("A UF da sigla " + sigla + " é " + uf)
+print("A UF da sigla" + sigla + "é" + uf)
