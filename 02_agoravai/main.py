@@ -5,7 +5,16 @@ class Main:
         self.conta_corrente = []
         self.conta_poupança = []
 
-    def cadastrar_conta_corrente(self):
+    def setcadastrar_conta_corrente(self, numero, titular):
+        print("Nova conta")
+        nome = input("Nome:")
+        numeroconta = input("Número da conta:")
+
+        conta_corrente= Conta_Corrente
+        numeroconta.setnome(nome)
+        numeroconta.conta_corrente(numeroconta)
+
+    def getcadastrar_conta_corrente(self):
 
 
 

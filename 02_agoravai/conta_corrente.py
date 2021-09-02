@@ -5,3 +5,6 @@ class Conta_Corrente
         self.titular = titular
         self.saldo = saldo
         self.limite = limite
+
+    def aumentar_limite
+

@@ -18,3 +18,15 @@ class Conta:
 
     def imprime_saldo
         print ("O saldo é: R$ %.2f" self.saldo)
+
+class ContaPoupanca:
+    def __init__(self):
+        self.tipo = "cp"
+
+class ContaCorrente(Conta):
+    def __init__(self):
+        self.tipo = "cc"
+        self.limite_credito = 0
+
+    def v_aumenta_limite(self, alteracao):
+        self.limite_credito = alteracao

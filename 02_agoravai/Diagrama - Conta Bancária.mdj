@@ -395,6 +395,7 @@
 											"model": {
 												"$ref": "AAAAAAF7l3Y1y2RegoQ="
 											},
+											"visible": false,
 											"font": "Arial;13;0",
 											"left": 61,
 											"top": 366,
@@ -402,13 +403,30 @@
 											"height": 13,
 											"text": "-Data do Aniversário: Date",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF7o6jTM5rjDEY=",
+											"_parent": {
+												"$ref": "AAAAAAF7l075w1kADLI="
+											},
+											"model": {
+												"$ref": "AAAAAAF7o6jTKJrgb10="
+											},
+											"font": "Arial;13;0",
+											"left": 61,
+											"top": 368,
+											"width": 153.181640625,
+											"height": 13,
+											"text": "-Tipo",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 56,
 									"top": 361,
 									"width": 163.181640625,
-									"height": 23
+									"height": 25
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -429,9 +447,10 @@
 											"model": {
 												"$ref": "AAAAAAF7l3Zq02Rm148="
 											},
+											"visible": false,
 											"font": "Arial;13;0",
 											"left": 61,
-											"top": 389,
+											"top": 376,
 											"width": 153.181640625,
 											"height": 13,
 											"text": "-Renda da Conta()",
@@ -440,9 +459,9 @@
 									],
 									"font": "Arial;13;0",
 									"left": 56,
-									"top": 384,
+									"top": 386,
 									"width": 163.181640625,
-									"height": 23
+									"height": 10
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -616,13 +635,30 @@
 											"height": 13,
 											"text": "-Limite de Crédito",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF7o6ibVpq3T6M=",
+											"_parent": {
+												"$ref": "AAAAAAF7l09TAFkqaGM="
+											},
+											"model": {
+												"$ref": "AAAAAAF7o6iaVZq0LpQ="
+											},
+											"font": "Arial;13;0",
+											"left": 349,
+											"top": 381,
+											"width": 119,
+											"height": 13,
+											"text": "-Tipo",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 344,
 									"top": 361,
 									"width": 129,
-									"height": 23
+									"height": 38
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -645,7 +681,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 349,
-											"top": 389,
+											"top": 404,
 											"width": 119,
 											"height": 13,
 											"text": "-Aumentar Limite()",
@@ -654,7 +690,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 344,
-									"top": 384,
+									"top": 399,
 									"width": 129,
 									"height": 23
 								},
@@ -1526,6 +1562,15 @@
 							"name": "Data do Aniversário",
 							"visibility": "private",
 							"type": "Date"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF7o6jTKJrgb10=",
+							"_parent": {
+								"$ref": "AAAAAAF7l075wlj4N9E="
+							},
+							"name": "Tipo",
+							"visibility": "private"
 						}
 					],
 					"operations": [
@@ -1598,6 +1643,16 @@
 								"$ref": "AAAAAAF7l09S/1kikT0="
 							},
 							"name": "Limite de Crédito",
+							"visibility": "private",
+							"type": ""
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF7o6iaVZq0LpQ=",
+							"_parent": {
+								"$ref": "AAAAAAF7l09S/1kikT0="
+							},
+							"name": "Tipo",
 							"visibility": "private"
 						}
 					],
